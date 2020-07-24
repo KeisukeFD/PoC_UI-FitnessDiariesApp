@@ -11,6 +11,27 @@
 		A72B419724C915A800E6901A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B419624C915A800E6901A /* ContentView.swift */; };
 		A72B419924C915A900E6901A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72B419824C915A900E6901A /* Assets.xcassets */; };
 		A72B419C24C915A900E6901A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72B419B24C915A900E6901A /* Preview Assets.xcassets */; };
+		A72B41A424C915BA00E6901A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41A324C915BA00E6901A /* MainView.swift */; };
+		A72B41A624C9172900E6901A /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41A524C9172900E6901A /* TabBarView.swift */; };
+		A72B41A824C9D96800E6901A /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41A724C9D96800E6901A /* CircleButtonView.swift */; };
+		A72B41AA24CA017300E6901A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41A924CA017300E6901A /* HomeView.swift */; };
+		A72B41AD24CA051100E6901A /* TitleWithMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41AC24CA051100E6901A /* TitleWithMoreView.swift */; };
+		A72B41AF24CA0E4D00E6901A /* RoundedCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41AE24CA0E4D00E6901A /* RoundedCornersShape.swift */; };
+		A72B41B124CA0E7E00E6901A /* DietStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41B024CA0E7E00E6901A /* DietStatsView.swift */; };
+		A72B41B324CA274C00E6901A /* HorizontalProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41B224CA274C00E6901A /* HorizontalProgressBarView.swift */; };
+		A72B41B524CA312000E6901A /* MealsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41B424CA312000E6901A /* MealsCardView.swift */; };
+		A72B41B724CA3CA500E6901A /* DayChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41B624CA3CA500E6901A /* DayChooserView.swift */; };
+		A72B41BA24CA3F5400E6901A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41B924CA3F5400E6901A /* DateExtension.swift */; };
+		A72B41BC24CA480500E6901A /* BackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41BB24CA480500E6901A /* BackCardView.swift */; };
+		A72B41BE24CA49A600E6901A /* BodyMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41BD24CA49A600E6901A /* BodyMeasurementView.swift */; };
+		A72B41C024CA531B00E6901A /* WaterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41BF24CA531B00E6901A /* WaterCardView.swift */; };
+		A72B41C224CA585F00E6901A /* VerticalWaterPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41C124CA585F00E6901A /* VerticalWaterPillView.swift */; };
+		A76031AE24CA71D30063E13D /* InformationMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76031AD24CA71D30063E13D /* InformationMessageView.swift */; };
+		A76031B024CA762C0063E13D /* RunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76031AF24CA762C0063E13D /* RunView.swift */; };
+		A76031B224CB32650063E13D /* BackSimpleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76031B124CB32650063E13D /* BackSimpleCardView.swift */; };
+		A76031B424CB34660063E13D /* BackSimpleCardViewWithCustomBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76031B324CB34660063E13D /* BackSimpleCardViewWithCustomBack.swift */; };
+		A76031B624CB616E0063E13D /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76031B524CB616E0063E13D /* AnimationExtension.swift */; };
+		A76031BC24CB64600063E13D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A76031BB24CB64600063E13D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +41,27 @@
 		A72B419824C915A900E6901A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A72B419B24C915A900E6901A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A72B419D24C915A900E6901A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72B41A324C915BA00E6901A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A72B41A524C9172900E6901A /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A72B41A724C9D96800E6901A /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		A72B41A924CA017300E6901A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A72B41AC24CA051100E6901A /* TitleWithMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWithMoreView.swift; sourceTree = "<group>"; };
+		A72B41AE24CA0E4D00E6901A /* RoundedCornersShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersShape.swift; sourceTree = "<group>"; };
+		A72B41B024CA0E7E00E6901A /* DietStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietStatsView.swift; sourceTree = "<group>"; };
+		A72B41B224CA274C00E6901A /* HorizontalProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalProgressBarView.swift; sourceTree = "<group>"; };
+		A72B41B424CA312000E6901A /* MealsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsCardView.swift; sourceTree = "<group>"; };
+		A72B41B624CA3CA500E6901A /* DayChooserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayChooserView.swift; sourceTree = "<group>"; };
+		A72B41B924CA3F5400E6901A /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		A72B41BB24CA480500E6901A /* BackCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackCardView.swift; sourceTree = "<group>"; };
+		A72B41BD24CA49A600E6901A /* BodyMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurementView.swift; sourceTree = "<group>"; };
+		A72B41BF24CA531B00E6901A /* WaterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCardView.swift; sourceTree = "<group>"; };
+		A72B41C124CA585F00E6901A /* VerticalWaterPillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalWaterPillView.swift; sourceTree = "<group>"; };
+		A76031AD24CA71D30063E13D /* InformationMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationMessageView.swift; sourceTree = "<group>"; };
+		A76031AF24CA762C0063E13D /* RunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunView.swift; sourceTree = "<group>"; };
+		A76031B124CB32650063E13D /* BackSimpleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSimpleCardView.swift; sourceTree = "<group>"; };
+		A76031B324CB34660063E13D /* BackSimpleCardViewWithCustomBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSimpleCardViewWithCustomBack.swift; sourceTree = "<group>"; };
+		A76031B524CB616E0063E13D /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
+		A76031BB24CB64600063E13D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +94,11 @@
 		A72B419324C915A800E6901A /* UI-FitnessDiariesApp */ = {
 			isa = PBXGroup;
 			children = (
+				A76031BB24CB64600063E13D /* README.md */,
+				A72B41B824CA3F4300E6901A /* Extensions */,
+				A72B41AB24CA04FC00E6901A /* Components */,
+				A76031B824CB620C0063E13D /* Views */,
 				A72B419424C915A800E6901A /* UI_FitnessDiariesAppApp.swift */,
-				A72B419624C915A800E6901A /* ContentView.swift */,
 				A72B419824C915A900E6901A /* Assets.xcassets */,
 				A72B419D24C915A900E6901A /* Info.plist */,
 				A72B419A24C915A900E6901A /* Preview Content */,
@@ -67,6 +112,64 @@
 				A72B419B24C915A900E6901A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A72B41AB24CA04FC00E6901A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A76031BA24CB62640063E13D /* Shapes */,
+				A76031B724CB61D80063E13D /* Frames */,
+				A72B41A724C9D96800E6901A /* CircleButtonView.swift */,
+				A72B41B224CA274C00E6901A /* HorizontalProgressBarView.swift */,
+				A72B41AC24CA051100E6901A /* TitleWithMoreView.swift */,
+				A72B41B624CA3CA500E6901A /* DayChooserView.swift */,
+				A72B41C124CA585F00E6901A /* VerticalWaterPillView.swift */,
+				A76031AD24CA71D30063E13D /* InformationMessageView.swift */,
+				A72B41B424CA312000E6901A /* MealsCardView.swift */,
+				A72B41BF24CA531B00E6901A /* WaterCardView.swift */,
+				A72B41BD24CA49A600E6901A /* BodyMeasurementView.swift */,
+				A72B41B024CA0E7E00E6901A /* DietStatsView.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		A72B41B824CA3F4300E6901A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A72B41B924CA3F5400E6901A /* DateExtension.swift */,
+				A76031B524CB616E0063E13D /* AnimationExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		A76031B724CB61D80063E13D /* Frames */ = {
+			isa = PBXGroup;
+			children = (
+				A72B41BB24CA480500E6901A /* BackCardView.swift */,
+				A76031B124CB32650063E13D /* BackSimpleCardView.swift */,
+				A76031B324CB34660063E13D /* BackSimpleCardViewWithCustomBack.swift */,
+			);
+			path = Frames;
+			sourceTree = "<group>";
+		};
+		A76031B824CB620C0063E13D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A72B419624C915A800E6901A /* ContentView.swift */,
+				A72B41A324C915BA00E6901A /* MainView.swift */,
+				A72B41A924CA017300E6901A /* HomeView.swift */,
+				A76031AF24CA762C0063E13D /* RunView.swift */,
+				A72B41A524C9172900E6901A /* TabBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A76031BA24CB62640063E13D /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				A72B41AE24CA0E4D00E6901A /* RoundedCornersShape.swift */,
+			);
+			name = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76031BC24CB64600063E13D /* README.md in Resources */,
 				A72B419C24C915A900E6901A /* Preview Assets.xcassets in Resources */,
 				A72B419924C915A900E6901A /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +242,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72B41BE24CA49A600E6901A /* BodyMeasurementView.swift in Sources */,
+				A72B41A824C9D96800E6901A /* CircleButtonView.swift in Sources */,
 				A72B419724C915A800E6901A /* ContentView.swift in Sources */,
+				A72B41B124CA0E7E00E6901A /* DietStatsView.swift in Sources */,
+				A76031B024CA762C0063E13D /* RunView.swift in Sources */,
+				A76031B424CB34660063E13D /* BackSimpleCardViewWithCustomBack.swift in Sources */,
+				A72B41B524CA312000E6901A /* MealsCardView.swift in Sources */,
+				A72B41AF24CA0E4D00E6901A /* RoundedCornersShape.swift in Sources */,
+				A76031B224CB32650063E13D /* BackSimpleCardView.swift in Sources */,
+				A72B41C024CA531B00E6901A /* WaterCardView.swift in Sources */,
+				A72B41BC24CA480500E6901A /* BackCardView.swift in Sources */,
+				A72B41C224CA585F00E6901A /* VerticalWaterPillView.swift in Sources */,
+				A76031B624CB616E0063E13D /* AnimationExtension.swift in Sources */,
+				A72B41BA24CA3F5400E6901A /* DateExtension.swift in Sources */,
+				A72B41A424C915BA00E6901A /* MainView.swift in Sources */,
+				A76031AE24CA71D30063E13D /* InformationMessageView.swift in Sources */,
+				A72B41B324CA274C00E6901A /* HorizontalProgressBarView.swift in Sources */,
+				A72B41AA24CA017300E6901A /* HomeView.swift in Sources */,
+				A72B41B724CA3CA500E6901A /* DayChooserView.swift in Sources */,
+				A72B41A624C9172900E6901A /* TabBarView.swift in Sources */,
+				A72B41AD24CA051100E6901A /* TitleWithMoreView.swift in Sources */,
 				A72B419524C915A800E6901A /* UI_FitnessDiariesAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
