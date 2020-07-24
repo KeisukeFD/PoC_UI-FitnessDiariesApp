@@ -23,12 +23,12 @@ struct HomeView: View {
                 
                 Spacer(minLength: 60)
                 // DayChooserView
-                DayChooser(current: $currentDate)
+                DayChooserView(current: $currentDate)
                     .font(.system(size: 14))
             }.padding()
             
             if self.showingView {
-                TitleWithMore(title: "Mediterranean diet", detail: "Details", detailAction: {})
+                TitleWithMoreView(title: "Mediterranean diet", detail: "Details", detailAction: {})
                     .transition(.slideFromRightToLeft)
                     .animation(.delayed(by: 0))
 
@@ -39,7 +39,7 @@ struct HomeView: View {
                     .animation(.delayed(by: 1))
 
 
-                TitleWithMore(title: "Meals today", detail: "Customize", detailAction: {})
+                TitleWithMoreView(title: "Meals today", detail: "Customize", detailAction: {})
                     .transition(.slideFromRightToLeft)
                     .animation(.delayed(by: 2))
 
@@ -47,15 +47,15 @@ struct HomeView: View {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 20) {
                         if(self.mealsCardsShowing) {
-                            MealsCard(title: "Breakfast", shortDescription: "Bread,\nPeanut butter,\nApple", calories: 525, imageName: "breakfast", firstColor: Color("orangeDark"), secondColor: Color("orangeLight"))
+                            MealsCardView(title: "Breakfast", shortDescription: "Bread,\nPeanut butter,\nApple", calories: 525, imageName: "breakfast", firstColor: Color("orangeDark"), secondColor: Color("orangeLight"))
                                 .transition(.slideFromRightToLeft)
                                 .animation(.delayed(by: 0))
 
-                            MealsCard(title: "Lunch", shortDescription: "Salmon,\nMixed veggies, \nAvocado", calories: 602, imageName: "lunch", firstColor: Color("violetDark"), secondColor: Color("violetLight"))
+                            MealsCardView(title: "Lunch", shortDescription: "Salmon,\nMixed veggies, \nAvocado", calories: 602, imageName: "lunch", firstColor: Color("violetDark"), secondColor: Color("violetLight"))
                                 .transition(.slideFromRightToLeft)
                                 .animation(.delayed(by: 1))
 
-                            MealsCard(title: "Snack", shortDescription: "Bread,\nNutella\n", calories: 422, imageName: "snack", firstColor: Color("roseDark"), secondColor: Color("roseLight"))
+                            MealsCardView(title: "Snack", shortDescription: "Bread,\nNutella\n", calories: 422, imageName: "snack", firstColor: Color("roseDark"), secondColor: Color("roseLight"))
                                 .transition(.slideFromRightToLeft)
                                 .animation(.delayed(by: 2))
 
@@ -72,13 +72,13 @@ struct HomeView: View {
                     }
                 }
                 
-                TitleWithMore(title: "Body measurement", detail: "Today", detailAction: {})
+                TitleWithMoreView(title: "Body measurement", detail: "Today", detailAction: {})
 
                 BodyMeasurementView()
                     .padding(.leading)
                     .padding(.trailing)
 
-                TitleWithMore(title: "Water", detail: "Aqua SmartBottle", detailAction: {})
+                TitleWithMoreView(title: "Water", detail: "Aqua SmartBottle", detailAction: {})
 
                 WaterCardView()
                     .padding(.leading)

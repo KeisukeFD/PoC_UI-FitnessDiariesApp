@@ -17,7 +17,7 @@ struct RunView: View {
                     .bold()
             }.padding()
             
-            TitleWithMore(title: "Your program", detail: "Details", detailAction: {})
+            TitleWithMoreView(title: "Your program", detail: "Details", detailAction: {})
             
             BackCardView(backgroundColors: [Color("gradientDarkCardBlue"), Color("gradientLightCardBlue")]) {
                 VStack(alignment: .leading, spacing: 10) {
@@ -33,7 +33,7 @@ struct RunView: View {
                             Text("68 min")
                         }
                         Spacer()
-                        CircleButton(image: "play", action: {
+                        CircleButtonView(image: "play", action: {
 
                         }, backgroundColors: [.white], foregroundColor: Color("gradientDarkCardBlue"))
                     }.font(Font.body.bold())
@@ -74,7 +74,7 @@ struct RunView: View {
             .padding()
             .padding(.bottom, -15)
             
-            TitleWithMore(title: "Area of focus", detail: "more", detailAction: {})
+            TitleWithMoreView(title: "Area of focus", detail: "more", detailAction: {})
             
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())]) {
                 ForEach(["area1", "area2", "area3"], id: \.self) { i in

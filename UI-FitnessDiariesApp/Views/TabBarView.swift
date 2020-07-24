@@ -44,7 +44,7 @@ struct TabBarView: View {
             
             if self.showTabBarForAnimation {
                 GeometryReader { geo in
-                    CircleButton(image: "plus", action: {
+                    CircleButtonView(image: "plus", action: {
                         print("Show: ", self.viewRouter.currentView)
                     })
                         .frame(width: 60, height: 60)
